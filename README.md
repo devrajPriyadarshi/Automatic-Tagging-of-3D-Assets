@@ -34,7 +34,7 @@ We obtain
 - ```2DAsset.csv``` with the information of images with their classes.
 - The ```Catagorised``` folder filled with models and images sorted according to their classes.
 
-### Limitations:
+### **Limitations**:
 - Since ```.fbx``` is a proprietary file format owned by Autodesk, there aren't any opensource format change program written in python. The only available option is to covert it online through some website or software like Blender.
 - Assets download from the internet can have any rotation in 3D. Therefore a Rotation Invariant implementation of PointCloud Model is neccessary to overcome this: [RiConv](https://github.com/hkust-vgd/riconv)
 - Further explanding on the number of classes will require different datasets. Some prospects would be [ModelNet40](https://modelnet.cs.princeton.edu/) or [ShapeNet](https://shapenet.org/)
